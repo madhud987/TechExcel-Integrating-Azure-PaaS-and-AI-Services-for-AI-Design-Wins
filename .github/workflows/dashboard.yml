@@ -66,5 +66,5 @@ jobs:
 
     - uses: azure/webapps-deploy@v2
       with:
-        app-name: '{x7d5pgjztuzp6}-dash'
+        app-name: 'x7d5pgjztuzp6-dash'
         images: x7d5pgjztuzp6cosureg.azurecr.io/techexcel/csdash:${{github.run_number}}
