@@ -14,6 +14,10 @@ def create_chat_completion(messages):
     search_key = st.secrets["search"]["key"]
     search_index_name = st.secrets["search"]["index_name"]
 
+    search_endpoint = st.secrets["search"]["endpoint"]
+    search_key = st.secrets["search"]["key"]
+    search_index_name = st.secrets["search"]["index_name"]
+
     client = openai.AzureOpenAI(
         api_key=aoai_key,
         api_version="2024-06-01",
